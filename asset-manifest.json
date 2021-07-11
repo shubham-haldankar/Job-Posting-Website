@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shubham-haldankar/Job-Posting-Website/static/css/main.979062ca.chunk.css",
-    "main.js": "/shubham-haldankar/Job-Posting-Website/static/js/main.783353aa.chunk.js",
-    "main.js.map": "/shubham-haldankar/Job-Posting-Website/static/js/main.783353aa.chunk.js.map",
-    "runtime-main.js": "/shubham-haldankar/Job-Posting-Website/static/js/runtime-main.083582d9.js",
-    "runtime-main.js.map": "/shubham-haldankar/Job-Posting-Website/static/js/runtime-main.083582d9.js.map",
-    "static/js/2.ebc9f2c5.chunk.js": "/shubham-haldankar/Job-Posting-Website/static/js/2.ebc9f2c5.chunk.js",
-    "static/js/2.ebc9f2c5.chunk.js.map": "/shubham-haldankar/Job-Posting-Website/static/js/2.ebc9f2c5.chunk.js.map",
-    "static/js/3.be73d7ea.chunk.js": "/shubham-haldankar/Job-Posting-Website/static/js/3.be73d7ea.chunk.js",
-    "static/js/3.be73d7ea.chunk.js.map": "/shubham-haldankar/Job-Posting-Website/static/js/3.be73d7ea.chunk.js.map",
-    "index.html": "/shubham-haldankar/Job-Posting-Website/index.html",
-    "static/css/main.979062ca.chunk.css.map": "/shubham-haldankar/Job-Posting-Website/static/css/main.979062ca.chunk.css.map",
-    "static/js/2.ebc9f2c5.chunk.js.LICENSE.txt": "/shubham-haldankar/Job-Posting-Website/static/js/2.ebc9f2c5.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.979062ca.chunk.css",
+    "main.js": "./static/js/main.783353aa.chunk.js",
+    "main.js.map": "./static/js/main.783353aa.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a6e61e8c.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a6e61e8c.js.map",
+    "static/js/2.ebc9f2c5.chunk.js": "./static/js/2.ebc9f2c5.chunk.js",
+    "static/js/2.ebc9f2c5.chunk.js.map": "./static/js/2.ebc9f2c5.chunk.js.map",
+    "static/js/3.be73d7ea.chunk.js": "./static/js/3.be73d7ea.chunk.js",
+    "static/js/3.be73d7ea.chunk.js.map": "./static/js/3.be73d7ea.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.979062ca.chunk.css.map": "./static/css/main.979062ca.chunk.css.map",
+    "static/js/2.ebc9f2c5.chunk.js.LICENSE.txt": "./static/js/2.ebc9f2c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.083582d9.js",
+    "static/js/runtime-main.a6e61e8c.js",
     "static/js/2.ebc9f2c5.chunk.js",
     "static/css/main.979062ca.chunk.css",
     "static/js/main.783353aa.chunk.js"
