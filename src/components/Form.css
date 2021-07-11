@@ -1,0 +1,97 @@
+textarea { resize: none; }
+
+.task-input {
+  outline: none;
+  width: 260px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000;
+  background-color: #ccc;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+}
+
+.task-description {
+  outline: none;
+  width: 260px;
+  height: 210px;
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: #ccc;
+  border: 1px solid #000;
+  border-radius: 5px;
+  float: right;
+}
+
+.button-add{
+  width: 290px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-add span {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.button-add:after,
+.button-add:before {
+  padding: 18px 0 11px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(-100% - 30px);
+  height: calc(100% - 29px);
+  width: calc(100% + 20px);
+  color: #fff;
+  border-radius: 2px;
+  transform: skew(-25deg);
+}
+
+.button-add:after {
+  background: #fff;
+  transition: left 0.8s cubic-bezier(0.86, 0, 0.07, 1) 0.2s;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+.button-add:before {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);;
+  z-index: 5;
+  transition: left 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.button-add:hover:after {
+  left: calc(0% - 10px);
+  transition: left 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.button-add:hover:before {
+  left: calc(0% - 10px);
+  transition: left 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+input:focus,
+button:focus{
+  outline: none;
+}
+
+.inblock{
+  display: inline-block;
+  margin: 0;
+}

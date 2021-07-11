@@ -1,0 +1,67 @@
+.list-item{
+  border-radius: 5px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.button-delete,
+.button-edit{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-edit{
+  color: #e2d029;
+  margin-right: 10px;
+}
+
+.button-delete{
+  color: lightseagreen;
+}
+
+.display-job{
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  border-color: transparent;
+}
+
+.display-job-description{
+  outline: none;
+  width: 260px;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: transparent;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
+.heading{
+  font-weight: 700;
+}
+
+.fa-trash{
+  color: mediumvioletred;
+}
+
+.fa-edit{
+  color: blueviolet;
+}
+
+h3{
+  font-weight: 300;
+}
+
+.buttons{
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+}
