@@ -67,15 +67,7 @@ const Form = ({input, setInput, company, setCompany, location, setLocation, expe
 		}
 	};
 	return(
-		<form onSubmit={onFormSubmit}>
-		<textarea
-			    type="text" 
-			    placeholder="Write a Job Description" 
-			    className="task-description" 
-			    value={description} 
-			    multiline={true}
-			    onChange={onDescriptionChange}
-			/>
+		<form onSubmit={onFormSubmit} className="box">
 			<input 
 			    type="text" 
 			    placeholder="Write a Job Title" 
@@ -116,7 +108,14 @@ const Form = ({input, setInput, company, setCompany, location, setLocation, expe
 			    required 
 			    onChange={onSalaryChange}
 			/>
-			
+			<textarea
+			    type="text" 
+			    placeholder="Write a Job Description" 
+			    className="task-description" 
+			    value={description} 
+			    multiline={true}
+			    onChange={onDescriptionChange}
+			/>
 			<button className="button-add" type="submit">
 				<span>
 					{editJob ? "OK" : "Add"}

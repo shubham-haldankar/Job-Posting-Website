@@ -23,6 +23,7 @@ const App = () => {
 			<div className="app-wrapper">
 				<div>
 					<Header/>
+					<br/>
 				</div>
 				<div>
 				    <Form

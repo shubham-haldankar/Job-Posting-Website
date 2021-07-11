@@ -57,3 +57,10 @@ a{
   min-height: 200px !important;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+.app-wrapper{
+  min-width: 90vh !important;
+  min-height: 400px;
+}
+}
