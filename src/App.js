@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom';
 import PostJob from './components/PostJob';
 import ViewJob from './components/ViewJob';
 import './App.css';
 
-export default function Urls() {
+export default function App() {
 	return(
 		<Router>
 			<Switch>
