@@ -1,6 +1,6 @@
 # Job-Posting-Website
 
-Developed Sample Job Posting Website using React JS
+Developed Sample Job Posting Website using React JS and published at https://shubham-haldankar.github.io/Job-Posting-Website/
 
 # Getting Started with Create React App
 
